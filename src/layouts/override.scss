@@ -1,0 +1,50 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.app-sidebar-tree {
+  background: #f8f6f6;
+  .ant-tree-treenode-selected {
+    background: #439999 !important;
+    .ant-tree-switcher {
+      color: #fff;
+    }
+  }
+  
+  .ant-tree-treenode{
+    height: 46px !important;
+    align-items: center !important;
+    width: 100%;
+  }
+  .ant-tree-switcher {
+    line-height: 45px;;
+  }
+  .ant-tree-node-selected {
+    color: #fff;
+
+    background-color: transparent !important;
+  }
+  .ant-tree-node-content-wrapper {
+    width: 100%;
+  }
+}
+.ant-popover-inner  {
+  padding: 0px !important;
+}
+
+.ant-tree-treenode:hover {
+  background: #7dc4c4;
+}
+.ant-tree .ant-tree-node-content-wrapper {
+  line-height: 40px;
+}
+.ant-tree .ant-tree-node-content-wrapper:hover {
+  background: unset;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  overflow: auto;
+}

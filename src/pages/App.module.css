@@ -1,0 +1,86 @@
+.app {
+  display: flex;
+}
+
+.appHeader {
+  height: 50px;
+  line-height: 50px;
+  background: #008c8c;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.appSidebar {
+  background: #f8f6f6;
+  width: 220px;
+  height: calc(100vh - 50px);
+}
+
+.addButton {
+  height: 50px;
+  line-height: 50px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.moreAction {
+  position: absolute;
+  right: 15px;
+}
+
+/* noteList */
+.noteListWrapper {
+  width: 250px;
+  height: calc(100vh - 50px);
+  overflow: auto;
+  border-right: 1px solid #eee;
+}
+
+.noteList {
+  width: 250px;
+  height: calc(100vh - 50px);
+  padding: 10px 0;
+  box-sizing: border-box;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.actionItem {
+  cursor: pointer;
+  padding: 4px 2px;
+  border-radius: 4px;
+}
+
+.actionItem:hover {
+  background: #eee;
+}
+
+.noteItem {
+  height: 65px;
+  padding: 10px 2px;
+  border-bottom: 1px solid #eee;
+}
+
+.selected {
+  background: #81cccc;
+}
+
+.title {
+  font-size: 14px;
+}
+
+.content {
+  font-size: 12px;
+  padding-top: 5px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 40px;
+}
+
+.count {
+  position: absolute;
+  bottom: 10px;
+}
